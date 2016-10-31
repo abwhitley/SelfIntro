@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		E90D27CF1DB162E3001F5C64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90D27CE1DB162E3001F5C64 /* AppDelegate.swift */; };
-		E90D27D11DB162E3001F5C64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90D27D01DB162E3001F5C64 /* ViewController.swift */; };
+		E90D27D11DB162E3001F5C64 /* MadLibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90D27D01DB162E3001F5C64 /* MadLibViewController.swift */; };
 		E90D27D41DB162E3001F5C64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90D27D21DB162E3001F5C64 /* Main.storyboard */; };
 		E90D27D61DB162E3001F5C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E90D27D51DB162E3001F5C64 /* Assets.xcassets */; };
 		E90D27D91DB162E3001F5C64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E90D27D71DB162E3001F5C64 /* LaunchScreen.storyboard */; };
 		E90D27E41DB162E4001F5C64 /* SelfIntroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90D27E31DB162E4001F5C64 /* SelfIntroTests.swift */; };
 		E90D27EF1DB162E4001F5C64 /* SelfIntroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90D27EE1DB162E4001F5C64 /* SelfIntroUITests.swift */; };
+		E9E3922D1DC7DCB400C54740 /* ShowStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E3922C1DC7DCB400C54740 /* ShowStoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		E90D27CB1DB162E3001F5C64 /* SelfIntro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfIntro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90D27CE1DB162E3001F5C64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E90D27D01DB162E3001F5C64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E90D27D01DB162E3001F5C64 /* MadLibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadLibViewController.swift; sourceTree = "<group>"; };
 		E90D27D31DB162E3001F5C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E90D27D51DB162E3001F5C64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E90D27D81DB162E3001F5C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		E90D27EA1DB162E4001F5C64 /* SelfIntroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfIntroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E90D27EE1DB162E4001F5C64 /* SelfIntroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfIntroUITests.swift; sourceTree = "<group>"; };
 		E90D27F01DB162E4001F5C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9E3922C1DC7DCB400C54740 /* ShowStoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowStoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				E90D27CE1DB162E3001F5C64 /* AppDelegate.swift */,
-				E90D27D01DB162E3001F5C64 /* ViewController.swift */,
+				E90D27D01DB162E3001F5C64 /* MadLibViewController.swift */,
+				E9E3922C1DC7DCB400C54740 /* ShowStoryViewController.swift */,
 				E90D27D21DB162E3001F5C64 /* Main.storyboard */,
 				E90D27D51DB162E3001F5C64 /* Assets.xcassets */,
 				E90D27D71DB162E3001F5C64 /* LaunchScreen.storyboard */,
@@ -259,7 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E90D27D11DB162E3001F5C64 /* ViewController.swift in Sources */,
+				E9E3922D1DC7DCB400C54740 /* ShowStoryViewController.swift in Sources */,
+				E90D27D11DB162E3001F5C64 /* MadLibViewController.swift in Sources */,
 				E90D27CF1DB162E3001F5C64 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +507,7 @@
 				E90D27F51DB162E4001F5C64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E90D27F61DB162E4001F5C64 /* Build configuration list for PBXNativeTarget "SelfIntroTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				E90D27F81DB162E4001F5C64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E90D27F91DB162E4001F5C64 /* Build configuration list for PBXNativeTarget "SelfIntroUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				E90D27FB1DB162E4001F5C64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
